@@ -1,0 +1,43 @@
+*{
+	margin: 2px;
+}
+body{
+	background: #00A0C6;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	font-size: 62.5%;
+}
+hgroup h1{
+	font: normal 3.4em Arial Black, Arial, sans-serif;
+	font-size: 50px;
+	background: black;
+	margin: 15px auto;
+	text-align: center;
+	padding: 55px;
+	color: #fff;
+}
+.vision{
+	padding: 25px;
+	width: 40%;
+	font-size: 20px;
+  	margin-right: 5%;
+  	float: right;
+ 	background: #fff;
+}
+.mision{
+	padding: 25px;
+	width: 40%;
+	font-size: 20px;
+  	margin-left: 5%;
+  	float: left;
+ 	background: #fff;
+}
+audio{
+	clear: both;
+	padding: 100px;
+	margin-top: 50px;
+}
+a{
+	background: black;
+ 	margin-left: 20px;
+ 	font-size: 20px;

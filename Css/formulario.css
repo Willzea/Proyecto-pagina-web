@@ -1,0 +1,23 @@
+body{
+	background: #00A0C6;
+}
+hgroup h1{
+	font: normal 3.4em Arial Black, Arial, sans-serif;
+	font-size: 40px;
+	background: black;
+	margin: 15px auto;
+	text-align: center;
+	padding: 55px;
+	color: #fff;
+}
+footer h2{
+	font: normal 2.4em Arial, Arial, sans-serif;
+	background: black;
+	width: 100%;
+	border-radius: 10px;
+	margin: 15px auto;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+	font-size: 10px;
+}

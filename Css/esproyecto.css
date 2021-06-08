@@ -1,0 +1,114 @@
+body{
+	background: #00A0C6;
+}
+header{
+	background: black;
+	padding: 20px;
+	height: 100%;
+	margin: auto;
+	font-size: 20px;
+	color: #fff;
+}
+header h2{
+	font-size: 30px;
+	text-align: center;
+	font: normal 2em Arial Black, Arial, sans-serif;
+}
+header img{
+	position: absolute;
+	left: 20px;
+	float: left;
+	top: 0;
+	padding: 15px;
+}
+.menu{
+	background: #C65F12;
+	width: 0%;
+	height: 100%;
+	display: flex;
+	font-size: 12px;
+}
+.opciones{
+	width: 310px;
+	height: 40px;
+	display: flex;
+	background: #fff;
+	color: black;
+	box-shadow: 5px 5px rgba(0, 0, 0); 
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.contenedor{
+	display: flex;
+	height: 40px;
+	width: 99%;
+	color: white;
+	font-size: 30px;
+	line-height: 40px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	overflow: hidden;
+	background: black;
+	text-align: left;
+}
+ul{
+	list-style: none;
+	padding-right: 45%;
+	animation: fps 5s infinite;
+
+}
+@keyframes fps{
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+
+	25%{ margin-top: -40px;}
+	50%{ margin-top: -40px;}
+
+	55%{ margin-top: -80px;}
+	80%{ margin-top: -80px;}
+
+	85%{ margin-top: -40px;}
+	95%{ margin-top: -40px;}
+
+	100%{ margin-top: 0;}
+}
+.fotos{
+	width: 80%;	
+	margin: auto;
+	overflow: hidden;
+}
+.fotos ul{
+	height: 90%;
+	width: 250%;
+	padding: 0;
+	display: flex;
+	animation: fpss 10s infinite;
+}
+
+.fotos li{
+	width: 100%;
+	list-style: none;
+	justify-content: center;
+}
+@keyframes fpss{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -101.3%;}
+	45% {margin-left: -101.3%;}
+
+	50% {margin-left: -202.6%;}
+	70% {margin-left: -202.6%;}
+
+	75% {margin-left: -304%;}
+	100% {margin-left: -304%;}
+
+	100%{ margin-left: 0;}
+}
